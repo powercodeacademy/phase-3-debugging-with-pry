@@ -61,7 +61,7 @@ Let's take a look. In this repository, you'll see a file called
 First, let's make sure Pry is installed on your system:
 
 ```console
-$ gem install pry
+gem install pry
 ```
 
 This will install the Pry gem system-wide, so you only need to run this command
@@ -156,7 +156,7 @@ Let's walk through an example together. In this repository, you'll see a `spec`
 folder containing a file `pry_debugging_spec.rb`. This is a test for the file
 `lib/pry_debugging.rb`.
 
-In `pry_debugging.rb`, we have a broken method. Run `learn test` to see the
+In `pry_debugging.rb`, we have a broken method. Run `bin/rspec` to see the
 failing test. You should see the following:
 
 ```txt
